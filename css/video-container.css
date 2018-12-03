@@ -12,11 +12,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
-.large-box > iframe {
+.large-box {
     width: 70vw;
+}
+.large-box > iframe {
+    width: 100%;
     height: 100%;
 }
+
 .small-box {
     margin-left: 20px;
 }
@@ -27,11 +30,6 @@
 .video-container {
     margin: 0;
 }
-
-.large-box > iframe {
-    width: 100vw;
-    height: 500px;
-}
   .video-flexbox {
     flex-direction: column;
   }
@@ -40,6 +38,10 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .large-box {
+    width: 100vw;
+    }
   
   .small-box:last-child {
     margin-right: auto;
