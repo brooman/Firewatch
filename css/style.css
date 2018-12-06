@@ -9,6 +9,7 @@ body {
   height: 16000px; /* big for scroll */
   margin: 0px;
   font-family: 'Poppins', sans-serif;
+  background-color: #151515;
 }
 
 .hero {
@@ -47,6 +48,7 @@ body {
   height: auto;
   position: relative;
   padding-bottom: 35vh;
+  background-color: #fff;
 }
 
 .introduction > .dude {
