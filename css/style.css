@@ -123,6 +123,7 @@ body {
   flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
+  color: #fff;
 }
 
 .video-flexbox {
@@ -165,9 +166,11 @@ left: 0; top: 0;
 /* Features container */ 
 .features-container {
   height: 100%;
-  width: 70%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 5vh;
+  color: #FFAF00;
 }
 
 .row {
@@ -233,7 +236,6 @@ left: 0; top: 0;
     padding-top: 2rem;
     width: 100vw;
   }
-
   .dude {
     display: none;
   }
