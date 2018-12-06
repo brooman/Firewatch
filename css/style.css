@@ -177,6 +177,7 @@ left: 0; top: 0;
   display: flex;
   overflow: hidden;
   width: 100%;
+  height: 100vh;
 }
 
 .col-6 {
@@ -224,6 +225,20 @@ left: 0; top: 0;
 .small-box {
   margin-top: 20px;
   margin-left: 0px;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.row:nth-child(odd) {
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
+
+.col-6 {
+  width: 100%;
+  height: 50%;
 }
 
 .col-6 > h2 {
