@@ -17,7 +17,7 @@ body {
 .hero {
   width: 100vw;
   height: 110vh;
-
+  
   position: relative;
   display: flex;
   justify-content: center;
@@ -197,16 +197,6 @@ body {
   object-fit: cover;
 }
 
-@media screen and (max-width: 1100px) {
-  .introduction {
-    padding-bottom: 25vh;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  .text-container > p {
-    font-size: 1.2rem;
-  }
 .col-6 > h2 {
   text-align: center;
   font-size: 3em;
@@ -224,13 +214,26 @@ body {
   padding: 1rem;
 }
 
-@media screen and (max-width: 860px){
-
-.video-container {
-  margin: 0;
+@media screen and (max-width: 1100px) {
+  .introduction {
+    padding-bottom: 25vh;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container > p {
+    font-size: 1.2rem;
+  }
 }
-.video-flexbox {
-  flex-direction: column;
+
+@media screen and (max-width: 860px){
+  
+  .video-container {
+    margin: 0;
+  }
+  .video-flexbox {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -258,7 +261,7 @@ body {
   .video-flexbox {
     flex-direction: column;
   }
-
+  
   .small-flexbox {
     justify-content: center;
     flex-direction: row;
@@ -267,47 +270,47 @@ body {
   .large-box {
     width: 100vw;
   }
-
+  
   .small-box:last-child {
     margin-right: auto;
     margin-left: auto;
   }
-.small-box {
-  margin-top: 20px;
-  margin-left: 0px;
-}
-
-.row {
-  flex-wrap: wrap;
-}
-
-.row:nth-child(odd) {
-  justify-content: space-between;
-  flex-direction: column-reverse;
-}
-
-.col-6 {
-  width: 100%;
-  height: 50%;
-}
-
-.col-6 > h2 {
-  font-size: 1.5em;
-}
-.col-6 > p {
-  font-size: 1.2em;
-}
+  .small-box {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  
+  .row {
+    flex-wrap: wrap;
+  }
+  
+  .row:nth-child(odd) {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  
+  .col-6 {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .col-6 > h2 {
+    font-size: 1.5em;
+  }
+  .col-6 > p {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .hero {
     height: 75vh;
   }
-
+  
   .introduction {
     padding-bottom: 20vh;
   }
-
+  
   .text-container {
     padding: 0 2rem;
     padding-top: 2rem;
@@ -316,11 +319,11 @@ body {
   .dude {
     display: none;
   }
-
+  
   .video-container {
     padding: 5vh 20px;
   }
-
+  
   .cave-container {
     height: 75vh;
   }
@@ -337,7 +340,5 @@ body {
   } */
   .hero .logo {
     width: 75%;
-  }
-
-  
+  }  
 }
