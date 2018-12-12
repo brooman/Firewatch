@@ -1,9 +1,9 @@
 # Firewatch
 Landing page for the game Firewatch.
-This is a project in the course Visuell kommunikation on YRGO Webbutvecklare.
+This is a project in the course Visuell kommunikation on Yrgo Webbutvecklare.
 
 ## Preview / Demo
-[Firewatch](https://laykith.github.io/Firewatch) - Not yet up
+[Firewatch](https://laykith.github.io/Firewatch)
 
 ## Collaborators
 - [André Broman](https://github.com/laykith)
