@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background: url(images/hero.jpeg);
+  background: url(../images/hero.jpeg);
 }
 
 .hero > .bg {
