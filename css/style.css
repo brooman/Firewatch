@@ -150,7 +150,7 @@ body {
 
 /* Cave container */
 .cave-container {
-  height: 100vh;
+  height: 115vh;
   position: relative;
 }
 
@@ -171,6 +171,12 @@ body {
   height: auto;
   z-index: 1;
   transform: rotate(180deg);
+}
+
+.cave-container > svg:last-child {
+  top: auto;
+  bottom: -1px;
+  transform: rotate(0deg);
 }
 
 /* Features container */
