@@ -143,10 +143,6 @@ body {
   margin-left: 20px;
 }
 
-.small-box > img {
-  object-fit: cover;
-}
-
 /* Cave container */
 .cave-container {
   height: 115vh;
