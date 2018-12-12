@@ -110,7 +110,6 @@ body {
 .video-flexbox {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100%;
   width: 100%;
   max-width: 1024px;
@@ -120,7 +119,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
 }
 
 .large-box {
