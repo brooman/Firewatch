@@ -185,6 +185,7 @@ left: 0; top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .col-6 > img {
@@ -195,7 +196,19 @@ left: 0; top: 0;
 
 .col-6 > h2 {
   text-align: center;
-  font-size: 3em
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.col-6 > p {
+  font-size: 1.7em;
+  text-align: center;
+  color: #fff;
+  padding: 5% 20%;
+}
+
+.text-column {
+  padding: 1rem;
 }
 
 @media screen and (max-width: 860px){
@@ -244,6 +257,9 @@ left: 0; top: 0;
 .col-6 > h2 {
   font-size: 1.5em;
 }
+.col-6 > p {
+  font-size: 1.2em;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -273,4 +289,6 @@ left: 0; top: 0;
     left: -40%;
     width: 150vw;
   }
+
+  
 }
