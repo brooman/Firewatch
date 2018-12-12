@@ -21,12 +21,11 @@ body {
 .hero {
   width: 100vw;
   height: 110vh;
-
   position: relative;
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-color: #2e112d;
+  background: url(../images/hero.jpeg);
 }
 
 .hero > .bg {
