@@ -284,6 +284,8 @@ body {
 @media screen and (max-width: 860px) {
   .video-container {
     margin: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .video-flexbox {
@@ -300,14 +302,15 @@ body {
     width: 100vw;
   }
 
-  .small-box:last-child {
+  /*   .small-box:last-child {
     margin-right: auto;
     margin-left: auto;
-  }
+  } */
 
   .small-box {
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .row {
@@ -353,7 +356,7 @@ body {
   }
 
   .video-container {
-    padding: 5vh 20px;
+    padding: 5vh 0px;
   }
 
   .cave-container {
